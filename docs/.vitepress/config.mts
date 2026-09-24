@@ -10,7 +10,7 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   head: [
-    ['meta', { name: 'theme-color', content: '#f7f7f2' }],
+    ['meta', { name: 'theme-color', content: '#faf6ef' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
   ],
   transformHead({ pageData, siteData, title, description }) {
