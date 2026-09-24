@@ -1,0 +1,15 @@
+{
+  "name": "bujidao-ecommerce-guide",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "布吉岛电商指南：从选品、建店到流量与转化",
+  "packageManager": "pnpm@10.17.1",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host 0.0.0.0 --port 5182 --strictPort",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --host 0.0.0.0"
+  },
+  "devDependencies": { "vitepress": "^1.6.4" }
+}
