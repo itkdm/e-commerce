@@ -4,7 +4,7 @@
 
 ## 项目定位
 
-- 布吉岛电商指南，帮助个人卖家和小团队理解选品、建店、运营与增长。
+- 布吉岛电商指南，帮助个人卖家和小团队发现平台机会，通过选品、供货、获客与履约经营自己的电商生意。
 - 使用 VitePress + Markdown，由 pnpm 管理。保留文档站架构。
 - 视觉参考 `D:\develop\project\seo`，沿用简洁浅色布局和首页卡片结构；图标与插画使用电商主题。
 
@@ -20,7 +20,7 @@
 ## 页面与 SEO
 
 - 栏目入口由各目录下的 `index.md` 承载，保持简短概览；侧栏只列当前栏目和“概览”。
-- 栏目路由：`/getting-started/`、`/products/`、`/store/`、`/operations/`、`/growth/`、`/cases/`、`/tools/`。
+- 栏目路由：`/getting-started/`、`/marketplace/`、`/resale/`、`/group-buying/`、`/short-video/`、`/cross-border/`、`/cases/`、`/tools/`。
 - 每页填写唯一 `title` 和 `description`；SEO head 标签集中在 `docs/.vitepress/seo.ts`。
 - 正式域名为 `https://ecom.itkdm.com`，生产构建通过 `SITE_URL` 注入。
 - 默认分享图位于 `docs/public/social/default-share.png`，不要求每篇文章单独准备图片。
@@ -30,4 +30,4 @@
 - 页面内容放在 `docs/`，公开图片和图标放在 `docs/public/`。
 - 页面改名时同步检查侧栏、站内链接和 canonical 路由。
 - 不提交 `.env`、密钥、`node_modules/` 或构建输出。
-- 未经用户明确要求，不要提交、推送或发布；用户已要求初始化并发布本项目到 GitHub Pages，域名为 `ecom.itkdm.com`。
+- 未经用户在当前任务中明确要求，不要提交、推送或发布。用户最近明确表示后续不需要部署，除非再次明确要求。
