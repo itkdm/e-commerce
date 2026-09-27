@@ -1,0 +1,13 @@
+# 布吉岛电商经营指南
+
+> 面向个人卖家和小团队，介绍电商平台机会，以及选品、供货、获客与履约经营。
+
+## 核心页面
+
+- [电商指南首页](https://ecom.itkdm.com/): 了解本站内容范围与经营路径。
+- [机会入门](https://ecom.itkdm.com/getting-started/): 从经营目标和资源条件开始选择方向。
+- [平台机会](https://ecom.itkdm.com/marketplace/): 了解在电商平台经营的主要方式。
+- [跨境电商](https://ecom.itkdm.com/cross-border/): 了解跨境经营的基础环节。
+- [实战案例](https://ecom.itkdm.com/cases/): 查看电商经营案例与复盘。
+
+其他栏目和全部公开页面见 [站点地图](https://ecom.itkdm.com/sitemap.xml)。具体平台规则、费用和政策可能变化；涉及决策时请核对平台官方信息。

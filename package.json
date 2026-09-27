@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "布吉岛电商指南：从选品、建店到流量与转化",
+  "description": "布吉岛电商经营指南：从选品、建店到流量与转化",
   "packageManager": "pnpm@10.17.1",
   "engines": { "node": ">=20" },
   "scripts": {

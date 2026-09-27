@@ -1,6 +1,7 @@
 import type { HeadConfig, PageData, SiteData } from 'vitepress'
 
-const DEFAULT_SOCIAL_IMAGE = '/social/default-share.png'
+const DEFAULT_SOCIAL_IMAGE = '/social/default-share-v3.jpg'
+const DEFAULT_SOCIAL_IMAGE_ALT = '电商履约场景：商家在工作台打包订单，旁边显示订单趋势'
 
 type SeoOptions = {
   pageData: PageData
@@ -68,14 +69,17 @@ export function createSeoHead({ pageData, siteData, title, description, siteUrl 
   const canonicalUrl = absoluteUrl(origin, siteData.base, pagePath(pageData.relativePath))
   const socialImagePath = typeof frontmatter.ogImage === 'string' ? frontmatter.ogImage : DEFAULT_SOCIAL_IMAGE
   const socialImageUrl = absoluteUrl(origin, siteData.base, socialImagePath)
+  const socialImageAlt = typeof frontmatter.ogImageAlt === 'string'
+    ? frontmatter.ogImageAlt
+    : typeof frontmatter.ogImage === 'string' ? title : DEFAULT_SOCIAL_IMAGE_ALT
 
   head.push(
     ['link', { rel: 'canonical', href: canonicalUrl }],
     ['meta', { property: 'og:url', content: canonicalUrl }],
     ['meta', { property: 'og:image', content: socialImageUrl }],
-    ['meta', { property: 'og:image:alt', content: String(frontmatter.ogImageAlt || title) }],
+    ['meta', { property: 'og:image:alt', content: socialImageAlt }],
     ['meta', { name: 'twitter:image', content: socialImageUrl }],
-    ['meta', { name: 'twitter:image:alt', content: String(frontmatter.ogImageAlt || title) }]
+    ['meta', { name: 'twitter:image:alt', content: socialImageAlt }]
   )
 
   if (kind === 'website') {

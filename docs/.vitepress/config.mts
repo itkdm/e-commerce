@@ -2,23 +2,26 @@ import { defineConfig } from 'vitepress'
 import { createSeoHead } from './seo'
 
 const siteUrl = process.env.SITE_URL
+const siteOrigin = new URL(siteUrl || 'https://ecom.itkdm.com').origin
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: '布吉岛电商指南',
+  title: '布吉岛电商经营指南',
   description: '关注不同电商平台的经营机会，拆解选品、供货、获客与利润，让电商想法逐步变成自己的生意。',
   cleanUrls: true,
+  sitemap: { hostname: siteOrigin },
   lastUpdated: true,
   head: [
     ['meta', { name: 'theme-color', content: '#faf6ef' }],
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'describedby', href: '/llms.txt' }]
   ],
   transformHead({ pageData, siteData, title, description }) {
     return createSeoHead({ pageData, siteData, title, description, siteUrl })
   },
   themeConfig: {
     logo: '/favicon.svg',
-    siteTitle: '布吉岛电商指南',
+    siteTitle: '布吉岛电商经营指南',
     nav: [
       { text: '机会入门', link: '/getting-started/' },
       { text: '京东', link: '/marketplace/' },
