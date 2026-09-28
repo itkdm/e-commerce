@@ -1,6 +1,7 @@
 ---
 title: 跨境电商经营概览｜平台选择、选品与出海
 description: 了解跨境平台的市场选择、商品验证、物流成本和获客方式，寻找适合自己的出海经营机会。
+ogImage: /social/categories/cross-border.jpg
 ---
 
 # 跨境平台

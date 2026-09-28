@@ -1,6 +1,7 @@
 ---
 title: 电商实战案例｜平台机会与经营复盘
 description: 复盘不同平台上的选品、供货、流量和利润决策，理解电商经营机会如何被验证。
+ogImage: /social/categories/cases.jpg
 ---
 
 # 实战案例

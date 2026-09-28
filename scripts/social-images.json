@@ -1,0 +1,62 @@
+{
+  "brand": {
+    "zh": "布吉岛电商经营指南"
+  },
+  "pages": [
+    {
+      "source": "docs/getting-started/index.md",
+      "background": "docs/public/social/backgrounds/getting-started.jpg",
+      "output": "/social/categories/getting-started.jpg",
+      "locale": "zh"
+    },
+    {
+      "source": "docs/marketplace/index.md",
+      "background": "docs/public/social/backgrounds/marketplace.jpg",
+      "output": "/social/categories/marketplace.jpg",
+      "locale": "zh"
+    },
+    {
+      "source": "docs/resale/index.md",
+      "background": "docs/public/social/backgrounds/resale.jpg",
+      "output": "/social/categories/resale.jpg",
+      "locale": "zh"
+    },
+    {
+      "source": "docs/group-buying/index.md",
+      "background": "docs/public/social/backgrounds/group-buying.jpg",
+      "output": "/social/categories/group-buying.jpg",
+      "locale": "zh"
+    },
+    {
+      "source": "docs/short-video/index.md",
+      "background": "docs/public/social/backgrounds/short-video.jpg",
+      "output": "/social/categories/short-video.jpg",
+      "locale": "zh"
+    },
+    {
+      "source": "docs/cross-border/index.md",
+      "background": "docs/public/social/backgrounds/cross-border.jpg",
+      "output": "/social/categories/cross-border.jpg",
+      "locale": "zh"
+    },
+    {
+      "source": "docs/cases/index.md",
+      "background": "docs/public/social/backgrounds/cases.jpg",
+      "output": "/social/categories/cases.jpg",
+      "locale": "zh"
+    },
+    {
+      "source": "docs/tools/index.md",
+      "background": "docs/public/social/backgrounds/tools.jpg",
+      "output": "/social/categories/tools.jpg",
+      "locale": "zh"
+    }
+  ],
+  "palette": {
+    "brand": "#a64f31",
+    "accent": "#c96b43",
+    "title": "#283943",
+    "description": "#5c625f",
+    "wash": "#fffaf4"
+  }
+}

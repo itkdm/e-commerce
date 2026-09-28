@@ -1,6 +1,7 @@
 ---
 title: 短视频小店经营概览｜内容流量与商品成交
 description: 以抖店等短视频电商平台为例，了解内容选题、商品匹配、流量获取和成交转化。
+ogImage: /social/categories/short-video.jpg
 ---
 
 # 短视频小店

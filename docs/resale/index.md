@@ -1,6 +1,7 @@
 ---
 title: 闲置转卖经营概览｜低成本测试供需
 description: 以闲鱼等闲置交易平台为例，了解选品、货源、定价和轻资产验证的经营思路。
+ogImage: /social/categories/resale.jpg
 ---
 
 # 闲置转卖

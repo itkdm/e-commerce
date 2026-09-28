@@ -1,6 +1,7 @@
 ---
 title: 电商经营工具资源｜选品、供货与利润分析
 description: 汇总用于市场调研、商品分析、供应链管理、内容制作和经营核算的电商工具与资料。
+ogImage: /social/categories/tools.jpg
 ---
 
 # 工具资源

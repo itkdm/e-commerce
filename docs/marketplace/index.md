@@ -1,6 +1,7 @@
 ---
 title: 货架商城经营概览｜选品、搜索与利润
 description: 了解京东、淘宝等货架商城的经营特点，规划选品、搜索流量、定价和利润测算。
+ogImage: /social/categories/marketplace.jpg
 ---
 
 # 货架商城

@@ -1,6 +1,7 @@
 ---
 title: 拼购平台经营概览｜供货、价格与规模
 description: 以拼多多等拼购平台为例，梳理供货能力、价格竞争、商品测试和利润管理。
+ogImage: /social/categories/group-buying.jpg
 ---
 
 # 拼购平台

@@ -1,6 +1,7 @@
 ---
 title: 电商机会入门｜从平台选择到首笔利润
 description: 从平台趋势、经营模式、选品验证到成本与履约，了解如何把电商机会转化为可持续的生意。
+ogImage: /social/categories/getting-started.jpg
 ---
 
 # 入门机会地图
