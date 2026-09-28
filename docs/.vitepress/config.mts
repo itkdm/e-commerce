@@ -1,8 +1,15 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type HeadConfig } from 'vitepress'
 import { createSeoHead } from './seo'
 
 const siteUrl = process.env.SITE_URL
 const siteOrigin = new URL(siteUrl || 'https://ecom.itkdm.com').origin
+const measurementId = process.env.GA_MEASUREMENT_ID
+const analyticsHead: HeadConfig[] = measurementId && /^G-[A-Z0-9]+$/.test(measurementId)
+  ? [
+      ['script', { async: '', src: `https://www.googletagmanager.com/gtag/js?id=${measurementId}` }],
+      ['script', {}, `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${measurementId}');`]
+    ]
+  : []
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -12,6 +19,7 @@ export default defineConfig({
   sitemap: { hostname: siteOrigin },
   lastUpdated: true,
   head: [
+    ...analyticsHead,
     ['meta', { name: 'theme-color', content: '#faf6ef' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '128x128', href: '/favicon.png' }],
