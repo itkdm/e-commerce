@@ -14,13 +14,14 @@ export default defineConfig({
   head: [
     ['meta', { name: 'theme-color', content: '#faf6ef' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '128x128', href: '/favicon.png' }],
     ['link', { rel: 'describedby', href: '/llms.txt' }]
   ],
   transformHead({ pageData, siteData, title, description }) {
     return createSeoHead({ pageData, siteData, title, description, siteUrl })
   },
   themeConfig: {
-    logo: '/favicon.svg',
+    logo: { src: '/favicon.svg', alt: '布吉岛电商经营指南标志' },
     siteTitle: '布吉岛电商经营指南',
     nav: [
       { text: '机会入门', link: '/getting-started/' },

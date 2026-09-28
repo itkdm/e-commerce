@@ -23,7 +23,8 @@
 - 栏目路由：`/getting-started/`、`/marketplace/`、`/resale/`、`/group-buying/`、`/short-video/`、`/cross-border/`、`/cases/`、`/tools/`。
 - 每页填写唯一 `title` 和 `description`；SEO head 标签集中在 `docs/.vitepress/seo.ts`。
 - 正式域名为 `https://ecom.itkdm.com`，生产构建通过 `SITE_URL` 注入。
-- 默认分享图位于 `docs/public/social/default-share.png`，不要求每篇文章单独准备图片。
+- 默认分享图位于 `docs/public/social/default-share.jpg`，不要求每篇文章单独准备图片。
+- SVG favicon 同时提供 128 × 128 PNG fallback。
 
 ## 资源与协作
 

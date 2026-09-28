@@ -2,7 +2,7 @@
 
 每个公开页面都要填写唯一的 `title` 和准确的 `description`。canonical、Open Graph、Twitter Card 和结构化数据由 VitePress 配置生成。
 
-按需填写 `date`（发布日期明确时）、`author`、`ogImage`、`ogImageAlt`、`noindex: true`。默认分享图为 `docs/public/social/default-share-v3.jpg`（1200 × 630），使用真实经营场景照片且不嵌入标题；分享标题和摘要由页面元数据提供。更新时间默认由 Git 提交时间提供。
+按需填写 `date`（发布日期明确时）、`author`、`ogImage`、`ogImageAlt`、`noindex: true`。默认分享图为 `docs/public/social/default-share.jpg`（1200 × 630），使用真实经营场景照片且不嵌入标题；分享标题和摘要由页面元数据提供。更新时间默认由 Git 提交时间提供。
 
 不使用 `keywords` 生成 `<meta name="keywords">`。搜索词应通过页面主题和正文自然覆盖。
 

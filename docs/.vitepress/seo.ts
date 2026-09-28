@@ -1,6 +1,6 @@
 import type { HeadConfig, PageData, SiteData } from 'vitepress'
 
-const DEFAULT_SOCIAL_IMAGE = '/social/default-share-v3.jpg'
+const DEFAULT_SOCIAL_IMAGE = '/social/default-share.jpg'
 const DEFAULT_SOCIAL_IMAGE_ALT = '电商履约场景：商家在工作台打包订单，旁边显示订单趋势'
 
 type SeoOptions = {
